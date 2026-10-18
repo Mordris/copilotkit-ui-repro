@@ -1,0 +1,201 @@
+{
+  "light": {
+    "slashMenu": {
+      "snapshot": "- listbox \"Slash commands\": No commands found",
+      "text": "No commands found"
+    },
+    "lightboxClose": "- button \"Close preview\": ✕",
+    "reasoningHeaders": [
+      "Thought for a few seconds",
+      "Thinking…"
+    ],
+    "buttons": [
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"Thought for a few seconds\":"
+      },
+      {
+        "testid": "copilot-copy-button",
+        "ariaLabel": "Copy",
+        "snapshot": "- button \"Copy\":"
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"North\""
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"South\""
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"Continue\""
+      },
+      {
+        "testid": "copilot-chat-view-scroll-to-bottom",
+        "ariaLabel": "Nach unten scrollen",
+        "snapshot": "- button \"Nach unten scrollen\":"
+      },
+      {
+        "testid": "copilot-chat-attachment-video-play",
+        "ariaLabel": "Play video",
+        "snapshot": "- button \"Play video\": ▶"
+      },
+      {
+        "testid": null,
+        "ariaLabel": "Remove attachment",
+        "snapshot": "- button \"Remove attachment\": ✕"
+      },
+      {
+        "testid": "copilot-chat-input-add",
+        "ariaLabel": "Anhänge hinzufügen",
+        "snapshot": "- button \"Anhänge hinzufügen\":"
+      },
+      {
+        "testid": "copilot-chat-input-start-transcribe",
+        "ariaLabel": "Diktieren",
+        "snapshot": "- button \"Diktieren\":"
+      },
+      {
+        "testid": "copilot-chat-input-send",
+        "ariaLabel": "Nachricht senden",
+        "snapshot": "- button \"Nachricht senden\" [disabled]:"
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"Thinking…\""
+      },
+      {
+        "testid": "copilot-chat-input-add",
+        "ariaLabel": "Anhänge hinzufügen",
+        "snapshot": "- button \"Anhänge hinzufügen\":"
+      },
+      {
+        "testid": "copilot-chat-input-start-transcribe",
+        "ariaLabel": "Diktieren",
+        "snapshot": "- button \"Diktieren\":"
+      },
+      {
+        "testid": "copilot-chat-input-send",
+        "ariaLabel": "Stoppen",
+        "snapshot": "- button \"Stoppen\":"
+      }
+    ],
+    "card": {
+      "cardBackground": "rgb(255, 255, 255)",
+      "cardInlineStyle": "margin: 8px; padding: 16px; border: 1px solid rgb(204, 204, 204); border-radius: 8px; box-sizing: border-box; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px; width: 100%;",
+      "cardClass": null,
+      "titleColor": "rgb(10, 10, 10)",
+      "chipBackground": "rgb(255, 255, 255)",
+      "chipColor": "rgb(10, 10, 10)",
+      "titleContrast": 19.8,
+      "chipContrast": 19.8
+    },
+    "ariaSnapshot": "- main:\n  - text: Show me the regional report.\n  - button \"Thought for a few seconds\":\n    - text: Thought for a few seconds\n    - img\n  - paragraph: The user wants a report; ask for the region first.\n  - paragraph: Which region should the report cover?\n  - button \"Copy\":\n    - img\n  - heading \"Pick a region\" [level=3]\n  - text: The report will use this region.\n  - button \"North\"\n  - button \"South\"\n  - button \"Continue\"\n  - button \"Nach unten scrollen\":\n    - img\n  - button \"Play video\": ▶\n  - button \"Remove attachment\": ✕\n  - button \"Anhänge hinzufügen\":\n    - img\n  - textbox \"Nachricht eingeben…\"\n  - button \"Diktieren\":\n    - img\n  - button \"Nachricht senden\" [disabled]:\n    - img\n  - paragraph: KI kann Fehler machen. Wichtige Informationen bitte prüfen.\n  - text: And the yearly totals?\n  - button \"Thinking…\"\n  - button \"Anhänge hinzufügen\":\n    - img\n  - textbox \"Nachricht eingeben…\"\n  - button \"Diktieren\":\n    - img\n  - button \"Stoppen\":\n    - img\n  - paragraph: KI kann Fehler machen. Wichtige Informationen bitte prüfen."
+  },
+  "dark": {
+    "slashMenu": {
+      "snapshot": "- listbox \"Slash commands\": No commands found",
+      "text": "No commands found"
+    },
+    "lightboxClose": "- button \"Close preview\": ✕",
+    "reasoningHeaders": [
+      "Thought for a few seconds",
+      "Thinking…"
+    ],
+    "buttons": [
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"Thought for a few seconds\":"
+      },
+      {
+        "testid": "copilot-copy-button",
+        "ariaLabel": "Copy",
+        "snapshot": "- button \"Copy\":"
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"North\""
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"South\""
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"Continue\""
+      },
+      {
+        "testid": "copilot-chat-view-scroll-to-bottom",
+        "ariaLabel": "Nach unten scrollen",
+        "snapshot": "- button \"Nach unten scrollen\":"
+      },
+      {
+        "testid": "copilot-chat-attachment-video-play",
+        "ariaLabel": "Play video",
+        "snapshot": "- button \"Play video\": ▶"
+      },
+      {
+        "testid": null,
+        "ariaLabel": "Remove attachment",
+        "snapshot": "- button \"Remove attachment\": ✕"
+      },
+      {
+        "testid": "copilot-chat-input-add",
+        "ariaLabel": "Anhänge hinzufügen",
+        "snapshot": "- button \"Anhänge hinzufügen\":"
+      },
+      {
+        "testid": "copilot-chat-input-start-transcribe",
+        "ariaLabel": "Diktieren",
+        "snapshot": "- button \"Diktieren\":"
+      },
+      {
+        "testid": "copilot-chat-input-send",
+        "ariaLabel": "Nachricht senden",
+        "snapshot": "- button \"Nachricht senden\" [disabled]:"
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"Thinking…\""
+      },
+      {
+        "testid": "copilot-chat-input-add",
+        "ariaLabel": "Anhänge hinzufügen",
+        "snapshot": "- button \"Anhänge hinzufügen\":"
+      },
+      {
+        "testid": "copilot-chat-input-start-transcribe",
+        "ariaLabel": "Diktieren",
+        "snapshot": "- button \"Diktieren\":"
+      },
+      {
+        "testid": "copilot-chat-input-send",
+        "ariaLabel": "Stoppen",
+        "snapshot": "- button \"Stoppen\":"
+      }
+    ],
+    "card": {
+      "cardBackground": "rgb(255, 255, 255)",
+      "cardInlineStyle": "margin: 8px; padding: 16px; border: 1px solid rgb(204, 204, 204); border-radius: 8px; box-sizing: border-box; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px; width: 100%;",
+      "cardClass": null,
+      "titleColor": "rgb(250, 250, 250)",
+      "chipBackground": "rgb(255, 255, 255)",
+      "chipColor": "rgb(250, 250, 250)",
+      "titleContrast": 1.04,
+      "chipContrast": 1.04
+    },
+    "ariaSnapshot": "- main:\n  - text: Show me the regional report.\n  - button \"Thought for a few seconds\":\n    - text: Thought for a few seconds\n    - img\n  - paragraph: The user wants a report; ask for the region first.\n  - paragraph: Which region should the report cover?\n  - button \"Copy\":\n    - img\n  - heading \"Pick a region\" [level=3]\n  - text: The report will use this region.\n  - button \"North\"\n  - button \"South\"\n  - button \"Continue\"\n  - button \"Nach unten scrollen\":\n    - img\n  - button \"Play video\": ▶\n  - button \"Remove attachment\": ✕\n  - button \"Anhänge hinzufügen\":\n    - img\n  - textbox \"Nachricht eingeben…\"\n  - button \"Diktieren\":\n    - img\n  - button \"Nachricht senden\" [disabled]:\n    - img\n  - paragraph: KI kann Fehler machen. Wichtige Informationen bitte prüfen.\n  - text: And the yearly totals?\n  - button \"Thinking…\"\n  - button \"Anhänge hinzufügen\":\n    - img\n  - textbox \"Nachricht eingeben…\"\n  - button \"Diktieren\":\n    - img\n  - button \"Stoppen\":\n    - img\n  - paragraph: KI kann Fehler machen. Wichtige Informationen bitte prüfen."
+  },
+  "external": []
+}

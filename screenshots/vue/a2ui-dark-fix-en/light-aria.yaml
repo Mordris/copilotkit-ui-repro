@@ -1,0 +1,36 @@
+- main:
+  - text: Show me the regional report.
+  - button "Thought for a few seconds":
+    - text: Thought for a few seconds
+    - img
+  - paragraph: The user wants a report; ask for the region first.
+  - paragraph: Which region should the report cover?
+  - button "Copy":
+    - img
+  - heading "Pick a region" [level=3]
+  - text: The report will use this region.
+  - button "North"
+  - button "South"
+  - button "Continue"
+  - button:
+    - img
+  - button "Play video": ▶
+  - button "Remove attachment": ✕
+  - button "Add photos or files":
+    - img
+  - textbox "Type a message..."
+  - button "Transcribe":
+    - img
+  - button "Send message" [disabled]:
+    - img
+  - paragraph: AI can make mistakes. Please verify important information.
+  - text: And the yearly totals?
+  - button "Thinking…"
+  - button "Add photos or files":
+    - img
+  - textbox "Type a message..."
+  - button "Transcribe":
+    - img
+  - button "Send message":
+    - img
+  - paragraph: AI can make mistakes. Please verify important information.

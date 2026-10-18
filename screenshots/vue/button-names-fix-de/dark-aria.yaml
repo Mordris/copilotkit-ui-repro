@@ -1,0 +1,36 @@
+- main:
+  - text: Show me the regional report.
+  - button "Thought for a few seconds":
+    - text: Thought for a few seconds
+    - img
+  - paragraph: The user wants a report; ask for the region first.
+  - paragraph: Which region should the report cover?
+  - button "Copy":
+    - img
+  - heading "Pick a region" [level=3]
+  - text: The report will use this region.
+  - button "North"
+  - button "South"
+  - button "Continue"
+  - button "Nach unten scrollen":
+    - img
+  - button "Play video": ▶
+  - button "Remove attachment": ✕
+  - button "Anhänge hinzufügen":
+    - img
+  - textbox "Nachricht eingeben…"
+  - button "Diktieren":
+    - img
+  - button "Nachricht senden" [disabled]:
+    - img
+  - paragraph: KI kann Fehler machen. Wichtige Informationen bitte prüfen.
+  - text: And the yearly totals?
+  - button "Thinking…"
+  - button "Anhänge hinzufügen":
+    - img
+  - textbox "Nachricht eingeben…"
+  - button "Diktieren":
+    - img
+  - button "Stoppen":
+    - img
+  - paragraph: KI kann Fehler machen. Wichtige Informationen bitte prüfen.

@@ -1,0 +1,201 @@
+{
+  "light": {
+    "slashMenu": {
+      "snapshot": "- listbox \"Slash commands\": No commands found",
+      "text": "No commands found"
+    },
+    "lightboxClose": "- button \"Close preview\": ✕",
+    "reasoningHeaders": [
+      "Thought for a few seconds",
+      "Thinking…"
+    ],
+    "buttons": [
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"Thought for a few seconds\":"
+      },
+      {
+        "testid": "copilot-copy-button",
+        "ariaLabel": "Copy",
+        "snapshot": "- button \"Copy\":"
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"North\""
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"South\""
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"Continue\""
+      },
+      {
+        "testid": "copilot-chat-view-scroll-to-bottom",
+        "ariaLabel": null,
+        "snapshot": "- button:"
+      },
+      {
+        "testid": "copilot-chat-attachment-video-play",
+        "ariaLabel": "Play video",
+        "snapshot": "- button \"Play video\": ▶"
+      },
+      {
+        "testid": null,
+        "ariaLabel": "Remove attachment",
+        "snapshot": "- button \"Remove attachment\": ✕"
+      },
+      {
+        "testid": "copilot-chat-input-add",
+        "ariaLabel": "Add photos or files",
+        "snapshot": "- button \"Add photos or files\":"
+      },
+      {
+        "testid": "copilot-chat-input-start-transcribe",
+        "ariaLabel": "Transcribe",
+        "snapshot": "- button \"Transcribe\":"
+      },
+      {
+        "testid": "copilot-chat-input-send",
+        "ariaLabel": "Send message",
+        "snapshot": "- button \"Send message\" [disabled]:"
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"Thinking…\""
+      },
+      {
+        "testid": "copilot-chat-input-add",
+        "ariaLabel": "Add photos or files",
+        "snapshot": "- button \"Add photos or files\":"
+      },
+      {
+        "testid": "copilot-chat-input-start-transcribe",
+        "ariaLabel": "Transcribe",
+        "snapshot": "- button \"Transcribe\":"
+      },
+      {
+        "testid": "copilot-chat-input-send",
+        "ariaLabel": "Send message",
+        "snapshot": "- button \"Send message\":"
+      }
+    ],
+    "card": {
+      "cardBackground": "rgb(255, 255, 255)",
+      "cardInlineStyle": "margin: 8px; padding: 16px; border: 1px solid var(--a2ui-color-border, #ccc); border-radius: 8px; box-sizing: border-box; background-color: var(--a2ui-color-surface, #fff); box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px; width: 100%;",
+      "cardClass": null,
+      "titleColor": "rgb(10, 10, 10)",
+      "chipBackground": "rgb(255, 255, 255)",
+      "chipColor": "rgb(10, 10, 10)",
+      "titleContrast": 19.8,
+      "chipContrast": 19.8
+    },
+    "ariaSnapshot": "- main:\n  - text: Show me the regional report.\n  - button \"Thought for a few seconds\":\n    - text: Thought for a few seconds\n    - img\n  - paragraph: The user wants a report; ask for the region first.\n  - paragraph: Which region should the report cover?\n  - button \"Copy\":\n    - img\n  - heading \"Pick a region\" [level=3]\n  - text: The report will use this region.\n  - button \"North\"\n  - button \"South\"\n  - button \"Continue\"\n  - button:\n    - img\n  - button \"Play video\": ▶\n  - button \"Remove attachment\": ✕\n  - button \"Add photos or files\":\n    - img\n  - textbox \"Type a message...\"\n  - button \"Transcribe\":\n    - img\n  - button \"Send message\" [disabled]:\n    - img\n  - paragraph: AI can make mistakes. Please verify important information.\n  - text: And the yearly totals?\n  - button \"Thinking…\"\n  - button \"Add photos or files\":\n    - img\n  - textbox \"Type a message...\"\n  - button \"Transcribe\":\n    - img\n  - button \"Send message\":\n    - img\n  - paragraph: AI can make mistakes. Please verify important information."
+  },
+  "dark": {
+    "slashMenu": {
+      "snapshot": "- listbox \"Slash commands\": No commands found",
+      "text": "No commands found"
+    },
+    "lightboxClose": "- button \"Close preview\": ✕",
+    "reasoningHeaders": [
+      "Thought for a few seconds",
+      "Thinking…"
+    ],
+    "buttons": [
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"Thought for a few seconds\":"
+      },
+      {
+        "testid": "copilot-copy-button",
+        "ariaLabel": "Copy",
+        "snapshot": "- button \"Copy\":"
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"North\""
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"South\""
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"Continue\""
+      },
+      {
+        "testid": "copilot-chat-view-scroll-to-bottom",
+        "ariaLabel": null,
+        "snapshot": "- button:"
+      },
+      {
+        "testid": "copilot-chat-attachment-video-play",
+        "ariaLabel": "Play video",
+        "snapshot": "- button \"Play video\": ▶"
+      },
+      {
+        "testid": null,
+        "ariaLabel": "Remove attachment",
+        "snapshot": "- button \"Remove attachment\": ✕"
+      },
+      {
+        "testid": "copilot-chat-input-add",
+        "ariaLabel": "Add photos or files",
+        "snapshot": "- button \"Add photos or files\":"
+      },
+      {
+        "testid": "copilot-chat-input-start-transcribe",
+        "ariaLabel": "Transcribe",
+        "snapshot": "- button \"Transcribe\":"
+      },
+      {
+        "testid": "copilot-chat-input-send",
+        "ariaLabel": "Send message",
+        "snapshot": "- button \"Send message\" [disabled]:"
+      },
+      {
+        "testid": null,
+        "ariaLabel": null,
+        "snapshot": "- button \"Thinking…\""
+      },
+      {
+        "testid": "copilot-chat-input-add",
+        "ariaLabel": "Add photos or files",
+        "snapshot": "- button \"Add photos or files\":"
+      },
+      {
+        "testid": "copilot-chat-input-start-transcribe",
+        "ariaLabel": "Transcribe",
+        "snapshot": "- button \"Transcribe\":"
+      },
+      {
+        "testid": "copilot-chat-input-send",
+        "ariaLabel": "Send message",
+        "snapshot": "- button \"Send message\":"
+      }
+    ],
+    "card": {
+      "cardBackground": "rgb(10, 10, 10)",
+      "cardInlineStyle": "margin: 8px; padding: 16px; border: 1px solid var(--a2ui-color-border, #ccc); border-radius: 8px; box-sizing: border-box; background-color: var(--a2ui-color-surface, #fff); box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px; width: 100%;",
+      "cardClass": null,
+      "titleColor": "rgb(250, 250, 250)",
+      "chipBackground": "rgb(10, 10, 10)",
+      "chipColor": "rgb(250, 250, 250)",
+      "titleContrast": 18.97,
+      "chipContrast": 18.97
+    },
+    "ariaSnapshot": "- main:\n  - text: Show me the regional report.\n  - button \"Thought for a few seconds\":\n    - text: Thought for a few seconds\n    - img\n  - paragraph: The user wants a report; ask for the region first.\n  - paragraph: Which region should the report cover?\n  - button \"Copy\":\n    - img\n  - heading \"Pick a region\" [level=3]\n  - text: The report will use this region.\n  - button \"North\"\n  - button \"South\"\n  - button \"Continue\"\n  - button:\n    - img\n  - button \"Play video\": ▶\n  - button \"Remove attachment\": ✕\n  - button \"Add photos or files\":\n    - img\n  - textbox \"Type a message...\"\n  - button \"Transcribe\":\n    - img\n  - button \"Send message\" [disabled]:\n    - img\n  - paragraph: AI can make mistakes. Please verify important information.\n  - text: And the yearly totals?\n  - button \"Thinking…\"\n  - button \"Add photos or files\":\n    - img\n  - textbox \"Type a message...\"\n  - button \"Transcribe\":\n    - img\n  - button \"Send message\":\n    - img\n  - paragraph: AI can make mistakes. Please verify important information."
+  },
+  "external": []
+}
