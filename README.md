@@ -108,6 +108,8 @@ The same page, built against packages packed from each fix branch:
 | --- | --- | --- | --- |
 | dark | `rgb(10, 10, 10)` | `rgb(250, 250, 250)` | 18.97 : 1 |
 
+Chip and button outlines in dark mode are `rgb(64, 64, 64)` on the card, at 1.91 : 1. Light mode keeps `#ccc` on white, at 1.61 : 1.
+
 | 1.79.1, dark | With the fix, dark |
 | --- | --- |
 | ![before](screenshots/react/1.79.1-en/dark-a2ui-card.png) | ![after](screenshots/react/a2ui-dark-fix-en/dark-a2ui-card.png) |

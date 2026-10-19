@@ -72,10 +72,12 @@ for (const theme of ["light", "dark"]) {
       titleColor: toRgb(getComputedStyle(title).color),
       chipBackground: toRgb(getComputedStyle(chip).backgroundColor),
       chipColor: toRgb(getComputedStyle(chip).color),
+      chipBorder: toRgb(getComputedStyle(chip).borderTopColor),
     };
   });
   card.titleContrast = contrast(card.titleColor, card.cardBackground);
   card.chipContrast = contrast(card.chipColor, card.chipBackground);
+  card.chipBorderContrast = contrast(card.chipBorder, card.cardBackground);
 
   // Slash-command menu with no matches, then the video preview, in the first chat.
   const first = page.getByTestId("finished");
@@ -117,5 +119,6 @@ for (const [theme, r] of Object.entries(report)) {
   console.log(`buttons: ${r.buttons.length}, without an accessible name: ${unnamed.length}`);
   for (const b of unnamed) console.log("   unnamed:", b.testid ?? "(no testid)", "|", b.snapshot);
   console.log(`A2UI card bg ${r.card.cardBackground}, title ${r.card.titleColor} -> contrast ${r.card.titleContrast}:1; chip ${r.card.chipColor} on ${r.card.chipBackground} -> ${r.card.chipContrast}:1`);
+  console.log(`   chip border ${r.card.chipBorder} on card -> ${r.card.chipBorderContrast}:1`);
   console.log(`   card style="${r.card.cardInlineStyle}" class=${JSON.stringify(r.card.cardClass)}`);
 }
